@@ -18,3 +18,5 @@ interval: the time interval between mouse position checks in seconds (default is
 threshold: the minimum distance in pixels that the mouse must move to be considered as a movement (default is 5 pixels).
 min_points: the minimum number of movement points required to generate a pattern (default is 10 points).
 You can also modify the code to change the graph style or save the graph in a different format or directory.
+
+Note that LUA script uses the LuaRocks library mouse to interact with the mouse. You will need to install it using luarocks install mouse before running the script.
