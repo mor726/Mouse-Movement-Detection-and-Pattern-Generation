@@ -6,7 +6,7 @@ Clone the repository or download the ZIP file and extract it to a directory.
 Install the required Python packages by running pip install -r requirements.txt in the command line.
 Usage
 Open the command line or terminal and navigate to the directory where the script is located.
-Run the script by typing python mouse_movement.py and pressing Enter.
+Run the script by typing python MMDPG.py and pressing Enter.
 The script will start detecting the movement of the mouse and logging it in a list.
 After 30 minutes of movement detection, the script will generate a unique ID for the pattern and plot it in a graph using Matplotlib.
 The graph will be saved in the same directory as pattern_<ID>.png, where <ID> is the generated ID.
