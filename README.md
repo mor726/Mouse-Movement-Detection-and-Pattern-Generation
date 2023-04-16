@@ -11,7 +11,7 @@ The script will start detecting the movement of the mouse and logging it in a li
 After 30 minutes of movement detection, the script will generate a unique ID for the pattern and plot it in a graph using Matplotlib.
 The graph will be saved in the same directory as pattern_<ID>.png, where <ID> is the generated ID.
 Customization
-You can customize the following parameters in the mouse_movement.py script:
+You can customize the following parameters in the MMDPG.py script:
 
 duration: the duration of the movement detection in seconds (default is 1800 seconds or 30 minutes).
 interval: the time interval between mouse position checks in seconds (default is 0.1 seconds).
